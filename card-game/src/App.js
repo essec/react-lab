@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import CharacterCard from './CharacterCard';
+import WordCard from './WordCard';
 const word = "Hello";
 
 class App extends Component {
@@ -13,6 +14,9 @@ class App extends Component {
         {
           Array.from(word).map((c, i) => <CharacterCard value={c} key={i}/>)
         }
+        <div>
+          <WordCard value="hello"/>
+        </div>
       </div>
     );
   }
