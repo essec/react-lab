@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 export default class CharacterCard extends Component{
     constructor(props){
         super(props)
@@ -7,8 +8,10 @@ export default class CharacterCard extends Component{
         }
     }
 
+
     activate = ()=>{
         if(!this.state.active){
+            this.props.activationHandler(this.props.value)
             this.setState({active: true})
         }
     }
