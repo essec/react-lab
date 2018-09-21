@@ -9,9 +9,13 @@ class App extends Component {
   render(){
     return(
       <div>
+<<<<<<< HEAD
         <div>
           <WordCard value={word}/>
         </div>
+=======
+        <WordCard value= {word}/>
+>>>>>>> dd920025c4d1aec150ec7701d84ddeb687709196
       </div>
     );
   }
