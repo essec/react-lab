@@ -30,11 +30,16 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2);
   margin: 1em;
   user-select: none;
+  
 }
 
 .activeCard{
   color: red;
   background: pink;
+}
+
+.score{
+  text-align: center
 }
 
 @keyframes App-logo-spin {
